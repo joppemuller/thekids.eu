@@ -26,11 +26,114 @@ p {
 h2 {
 	color: #2B2B2B;
 	font-size: 48px;
-	font-weight: 200;	
+	font-weight: 200;
+	line-height: 66px;	
 }
 
 .container-fluid {
 	display: block;
+}
+
+/* Nav */
+
+.menubtn {
+    z-index: 1;
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    font-weight: 100;
+    color: white;
+    border-bottom: 2px solid white;
+    height: 32px;
+}
+
+@media (max-width: 768px) {
+    .menubtn {
+        top: 30px;
+    }
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-content div, ul {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #2B2B2B;
+    display: block;
+    transition: 0.3s;
+    border-bottom: none;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.menu li a {
+    color: white !important;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color: white !important;
+}
+
+/* Logo */
+
+.logo {
+    width: 90px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 90px;
+    }
 }
 
 /* Homepage */

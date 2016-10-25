@@ -8,6 +8,31 @@
 	<link rel="stylesheet" type="text/css" href="css/kids.css">
 </head>
 	<body class="portfolio swissairlines">
+		<div class="container-fluid">
+			<div id="myNav" class="overlay">
+	              <!-- Button to close the overlay navigation -->
+	              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	              <div id="nav overlay-content">
+	                <ul>
+	                	<li><a href="index.html">Home</a></li>
+	                	<li><a href="index.html">Projects</a></li>
+	                	<li><a href="index.html">Contact</a></li>	                		                	
+	                </ul>
+	              </div>
+	        </div>
+        </div>
+        <div class="container-fluid">
+       		<div class="row menuwhite">
+          		<div class="col-xs-12">
+	            	<div>
+	              		<img src="img/Kids-Berlin-Design-Studio-Logo-2016-White.svg" class="logo">
+	            	</div>
+	            	<span class="menubtn" style="font-size:24px;cursor:pointer" onclick="openNav()">Menu</span>
+          		</div>
+        	</div>
+        </div>
+
 		<div class="container-fluid">	
 			<div class="row swiss">
 				<h2 class="col-xs-12">360° in the Swiss mountains</h2>
@@ -69,5 +94,15 @@
 				<img src="img/facebook-logo.svg">
 			</div>
 		</footer>
+
+		<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
 	</body>
 </html>
