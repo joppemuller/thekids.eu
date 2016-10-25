@@ -150,6 +150,32 @@ h2 {
     padding-top: 105px;
 }
 
+.swissairlines .results {
+	padding-top: 470px;
+	padding-left: 50px;
+}
+
+.swissairlines .results p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.swissairlines .feedback {
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.swissairlines .feedback p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.swissairlines .feedback p span {
+	font-size: 24px;
+	font-weight: 500;
+}
+
 /* Footer */
 
 footer div {
@@ -172,6 +198,29 @@ footer div {
 
 .fright img:first-child {
 	padding-left: 0px;
+}
+
+/* Video */
+
+.videomargin {
+	margin-top: 170px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    border: 45px solid #1D1D1D;
+    border-radius: 30px;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Helper CSS */
@@ -198,6 +247,10 @@ footer div {
 
 .textgrey {
 	color: #2B2B2B;
+}
+
+.extraheight {
+	height: 900px;
 }
 
 .fullheight {
