@@ -36,14 +36,14 @@ h2 {
 /* Homepage */
 
 .intro {
-	height: 600px;
+	height: 800px;
 }
 
 .intro h1 {
 	color: white;
 	font-size: 120px;
 	font-weight: 200;
-	padding-top: 150px;	
+	padding-top: 180px;	
 }
 
 .exp {
