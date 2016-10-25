@@ -1,0 +1,119 @@
+body, html {
+	font-family: 'Acumin Pro', sans-serif;
+}
+
+a {
+	color: #1E1EFA;
+	text-decoration: none;
+	border-bottom: 2px solid #1E1EFA;
+	display: inline;
+	font-size: 26px;
+}
+
+a:hover {
+	color: #1E1EFA;
+	text-decoration: none;
+	border-bottom: 2px solid #1E1EFA;
+	display: inline;
+	font-size: 26px;
+	opacity: 0.75;
+}
+
+p {
+	font-size: 24px;
+}
+
+h2 {
+	color: #2B2B2B;
+	font-size: 48px;
+	font-weight: 200;	
+}
+
+.container-fluid {
+	display: block;
+}
+
+/* Homepage */
+
+.intro {
+	height: 600px;
+}
+
+.intro h1 {
+	color: white;
+	font-size: 120px;
+	font-weight: 200;
+	padding-top: 150px;	
+}
+
+.exp {
+	height: 600px;
+}
+
+.exp h2 {
+	padding-top: 150px;		
+}
+
+.case1 {
+	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+.case1 h2 {
+	text-align: center;
+	line-height: 600px;
+	color: white;		
+	font-size: 64px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.case2 {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+.case2 h2 {
+	text-align: center;
+	line-height: 600px;
+	color: white;		
+	font-size: 64px;
+	font-weight: 300;
+	margin: 0;
+}
+
+/* Footer */
+
+footer div {
+	height: 300px;
+}
+
+.fleft {
+	padding-top: 40px;
+	padding-left: 65px;
+}
+
+.fright {
+	line-height: 300px;
+    text-align: center;
+}
+
+.fright img {
+	padding-left: 50px; 
+}
+
+.fright img:first-child {
+	padding-left: 0px;
+}
+
+/* Helper CSS */
+
+.bg-blue {
+	background-color: #1E1EFA;
+}
