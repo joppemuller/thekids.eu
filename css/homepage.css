@@ -1,0 +1,240 @@
+
+/* Homepage */
+
+.intro {
+	height: 500px;
+}
+
+.intro h1 {
+	font-size: 48px;
+	padding-top: 200px;
+	color: white;
+	font-weight: 200;
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+#dust {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+canvas.particles-js-canvas-el {
+    position: absolute;
+    left: 0;
+}
+
+@media (min-width: 500px) {
+
+.intro h1 {
+	font-size: 54px;
+	padding-top: 180px;	
+}
+
+}
+
+@media (min-width: 768px) {
+
+.intro {
+	height: 600px;
+}
+
+.intro h1 {
+	font-size: 90px;
+	padding-top: 190px;	
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.intro {
+	height: 700px;
+}
+
+.intro h1 {
+	font-size: 120px;
+	padding-top: 180px;	
+}
+
+}
+
+.exp {
+	height: auto;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.exp h2 {
+    padding-top: 0px;
+    font-size: 28px;
+    line-height: 44px;	
+}
+
+@media (min-width: 500px) {
+
+.exp {    
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.exp h2 {
+    font-size: 36px;
+    line-height: 50px;	
+}
+
+}
+
+@media (min-width: 768px) {
+
+.exp h2 {
+    font-size: 40px;
+    line-height: 54px;	
+}
+
+}
+
+@media (min-width: 992px) {
+
+.exp {
+	height: 600px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.exp h2 {
+    padding-top: 40px;
+    font-size: 44px;
+    line-height: 60px;	
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.exp {
+	height: 600px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.exp h2 {
+    padding-top: 40px;
+    font-size: 48px;
+    line-height: 66px;	
+}
+
+}
+
+.case1 {
+	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+
+.case1 h2 {
+	text-align: center;
+	line-height: 300px;
+	color: white;		
+	font-size: 26px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.case2 {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+
+.case2 h2 {
+	text-align: center;
+	line-height: 300px;
+	color: white;		
+	font-size: 26px;
+	font-weight: 300;
+	margin: 0;
+}
+
+@media (min-width: 768px) {
+
+.case1 {
+	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 450px;
+}
+
+.case1 h2 {
+	text-align: center;
+	line-height: 450px;
+	color: white;		
+	font-size: 48px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.case2 {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 450px;
+}
+
+.case2 h2 {
+	text-align: center;
+	line-height: 450px;
+	color: white;		
+	font-size: 49px;
+	font-weight: 300;
+	margin: 0;
+}
+
+}
+
+@media (min-width: 992px) {
+
+.case1 {
+	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+.case1 h2 {
+	text-align: center;
+	line-height: 600px;
+	color: white;		
+	font-size: 64px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.case2 {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+.case2 h2 {
+	text-align: center;
+	line-height: 600px;
+	color: white;		
+	font-size: 64px;
+	font-weight: 300;
+	margin: 0;
+}
+
+}

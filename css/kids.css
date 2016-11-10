@@ -8,6 +8,7 @@ a {
 	border-bottom: 2px solid #1E1EFA;
 	display: inline;
 	font-size: 26px;
+	transition: 0.3s;
 }
 
 a:hover {
@@ -16,7 +17,7 @@ a:hover {
 	border-bottom: 2px solid #1E1EFA;
 	display: inline;
 	font-size: 26px;
-	opacity: 0.75;
+	opacity: 0.95;
 }
 
 p {
@@ -128,6 +129,7 @@ h2 {
     position: absolute;
     top: 30px;
     left: 35px;
+    z-index: 10;	
 }
 
 @media (max-width: 768px) {
@@ -136,148 +138,6 @@ h2 {
     }
 }
 
-/* Homepage */
-
-.intro {
-	height: 700px;
-}
-
-.intro h1 {
-	color: white;
-	font-size: 120px;
-	font-weight: 200;
-	padding-top: 180px;	
-}
-
-.exp {
-	height: 600px;
-}
-
-.exp h2 {
-	padding-top: 150px;		
-}
-
-.case1 {
-	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 600px;
-}
-
-.case1 h2 {
-	text-align: center;
-	line-height: 600px;
-	color: white;		
-	font-size: 64px;
-	font-weight: 300;
-	margin: 0;
-}
-
-.case2 {
-	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 600px;
-}
-
-.case2 h2 {
-	text-align: center;
-	line-height: 600px;
-	color: white;		
-	font-size: 64px;
-	font-weight: 300;
-	margin: 0;
-}
-
-/* Portfolio */
-
-.portfolio h4 {
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 20px;
-	color: black;
-}
-
-.brief {
-	font-size: 28px;
-	font-weight: 100;
-}
-
-/* Swiss Airlines Case */
-
-.swissairlines .swiss {
-	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 600px;	
-}
-
-.swissairlines .swiss h2 {
-	text-align: center;
-	line-height: 600px;
-	color: white;		
-	font-size: 64px;
-	font-weight: 300;
-	margin: 0;
-}
-
-.swissairlines .swiss2 {
-	background-image: url('../img/Swiss-International-Airlines-Wengen-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 600px;	
-}
-
-.swissairlines .briefdiv {
-	padding-top: 75px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.swissairlines .experience {
-	padding-top: 400px;
-	padding-left: 50px;
-}
-
-.swissairlines .experience p {
-	font-size: 36px;
-	font-weight: 100;
-}
-
-.swissairlines .caselogo {
-    width: 320px;
-    padding-top: 105px;
-}
-
-.swissairlines .results {
-	padding-top: 470px;
-	padding-left: 50px;
-}
-
-.swissairlines .results p {
-	font-size: 36px;
-	font-weight: 100;
-}
-
-.swissairlines .feedback {
-    padding-top: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.swissairlines .feedback p {
-	font-size: 36px;
-	font-weight: 100;
-}
-
-.swissairlines .feedback p span {
-	font-size: 24px;
-	font-weight: 500;
-}
 
 /* Footer */
 
@@ -286,7 +146,7 @@ footer div {
 }
 
 .fleft {
-	padding-top: 40px;
+	padding-top: 32px;
 	padding-left: 65px;
 }
 
@@ -371,3 +231,68 @@ footer div {
 .center {
 	text-align: center;
 }
+
+/* Bootstrap Changes */
+
+
+/* Torch */
+
+
+.flashlight {
+  z-index: 1001;
+  width: 100%;
+  height: 100%;
+  padding: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background: radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+  background: -webkit-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+  background: -moz-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+  background: -ms-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+}
+
+/* Loaders */
+                
+.no-display {
+    display: none;
+}
+
+.afternoon, .earlybird, .morning, .food, .evening, .night {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+                .loaderheader {
+                    color: white;
+                    line-height: 95vh;
+                    font-size: 58px;
+                    text-align: center;
+                    font-weight: 300;
+                }
+
+                .earlybird {background-color: lightblue; }
+                .morning {background-color: orange; }
+                .food {background-color: darkgreen; }
+                .afternoon {background-color: darkred;}
+                .evening {background-color: #f3b998; }
+                .night {background-color: black; }
+
+                .flashlight {
+                      z-index: 1001;
+                      width: 100%;
+                      height: 100%;
+                      padding: 200px;
+                      position: fixed;
+                      top: 0;
+                      left: 0;
+                      background-repeat: no-repeat;
+                      background: radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+                      background: -webkit-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+                      background: -moz-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+                      background: -ms-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
+                    }

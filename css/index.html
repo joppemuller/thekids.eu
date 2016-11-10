@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.background {   
+	    overflow: hidden;  
+	    height: 285px;   
+	    width: 285px;   
+	    background: transparent url('http://www.lovethesepics.com/wp-content/uploads/2012/10/Youre-not-afraid-of-the-dark-are-you-Creepy-carriage-at-spooky-abandoned-manor-house.jpg') no-repeat;   
+	    background-size: cover;   
+	}  
+  
+	.hole {   
+	    position: absolute;   
+	    top: -300px; /* Sets hole starting Y position */  
+	    left: -345px; /* Sets hole starting X position */  
+	    width: 800px; /* Width of image containing hole */  
+	    height: 800px; /* Height of image containing hole */  
+	    background: transparent url(hole.png) no-repeat;   
+	}  
+	</style>
+</head>
+<body>
+	<div class="panel">  
+    	<div class="background">
+    		<div class="hole"></div>
+   	 	</div>
+   	</div>  
+</div> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery('.panel').mousemove(function(e)  
+{  
+    var $div = jQuery(this);  
+      
+    // Get cursor position  
+    var mouse_left = (e.pageX - $div.offset().left);  
+    var mouse_top = (e.pageY - $div.offset().top);  
+  
+    var el = $div.children('.background').children('.hole');  
+         
+    // set new left position  
+    var new_left = mouse_left - 345 - 65;  
+      
+    // Make sure the hole doesnt go off the left  
+    if (new_left < -345) { new_left = -345; }  
+      
+    // Make sure the hole doesnt go off the right  
+    if (mouse_left > ($div.width() - 65)) { new_left = ($div.width() - 130) - 345; }  
+         
+    el.css("left", new_left + "px");  
+      
+    // set new top position  
+    var new_top = mouse_top - 300 - 65;  
+      
+    // Make sure the hole doesnt go off the top  
+    if (new_top < -300) { new_top = -300; }  
+      
+    // Make sure the hole doesnt go off the bottom  
+    if (mouse_top > ($div.height() - 65)) { new_top = ($div.height() - 130) - 300; }  
+         
+    el.css("top", new_top + "px");  
+});  
+And there we have it
+</script>
+
+</body>
+</html>

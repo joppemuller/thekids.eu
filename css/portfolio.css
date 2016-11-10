@@ -1,0 +1,87 @@
+/* Portfolio */
+
+.portfolio h4 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
+	color: black;
+}
+
+.brief {
+	font-size: 28px;
+	font-weight: 100;
+}
+
+/* Swiss Airlines Case */
+
+.swissairlines .swiss {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.swissairlines .swiss h2 {
+	text-align: center;
+	line-height: 600px;
+	color: white;		
+	font-size: 64px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.swissairlines .swiss2 {
+	background-image: url('../img/Swiss-International-Airlines-Wengen-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.swissairlines .briefdiv {
+	padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.swissairlines .experience {
+	padding-top: 400px;
+	padding-left: 50px;
+}
+
+.swissairlines .experience p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.swissairlines .caselogo {
+    width: 320px;
+    padding-top: 105px;
+}
+
+.swissairlines .results {
+	padding-top: 470px;
+	padding-left: 50px;
+}
+
+.swissairlines .results p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.swissairlines .feedback {
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.swissairlines .feedback p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.swissairlines .feedback p span {
+	font-size: 24px;
+	font-weight: 500;
+}

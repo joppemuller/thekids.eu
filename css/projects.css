@@ -1,0 +1,65 @@
+.title {
+	height: 300px;
+}
+
+.title h1 {
+	font-size: 48px;
+	line-height: 300px;
+	color: white;
+	font-weight: 200;
+	padding-left: 50px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+
+
+.nomads, .swiss, .cobweb, .paro, .trycatch, .case6p {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+
+.paro {
+	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
+}
+
+.swiss {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+}
+
+.cobweb {
+	background-image: url('../img/Cobweb-Brand-Identity-Webdesign-Kids-Berlin.png');
+}
+
+.nomads {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+}
+
+.trycatch {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+}
+
+.case6p {
+	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+}
+
+.projects h2 {
+	text-align: center;
+    line-height: 400px;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+
+.projects h2 {
+    font-size: 40px;
+}
+
+
+
+}
