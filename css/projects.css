@@ -1,5 +1,5 @@
 .title {
-	height: 300px;
+	height: 330px;
 }
 
 .title h1 {
@@ -12,9 +12,7 @@
 	text-align: center;
 }
 
-
-
-.nomads, .swiss, .cobweb, .paro, .trycatch, .case6p {
+.nomads, .swiss, .cobweb, .paro, .trycatch, .holethroughearth {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -30,19 +28,19 @@
 }
 
 .cobweb {
-	background-image: url('../img/Cobweb-Brand-Identity-Webdesign-Kids-Berlin.png');
+	background-image: url('../img/Cobweb-Brand-Identity1-Webdesign-Kids-Berlin.jpg');
 }
 
 .nomads {
-	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+	background-image: url('../img/Nomads-Festival-2016-Kids-Project-Design-Concept.jpg');
 }
 
 .trycatch {
-	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+	background-image: url('../img/Try-Catch-Design-Project2-Kids-Berlin.jpg');
 }
 
-.case6p {
-	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
+.holethroughearth {
+	background-image: url('../img/Hole-Through-Earth--Kids-Project2-Design-Concept.jpg');
 }
 
 .projects h2 {
@@ -61,5 +59,14 @@
 }
 
 
+}
 
+canvas.particles-js-canvas-el {
+    position: absolute;
+    left: 0;
+}
+
+#dust {
+    position: relative;
+    top: 0;
 }

@@ -11,10 +11,10 @@
 </head>
 	<body>
 
-		<div id="food" class="no-display">
+		<div id="earlybird" class="no-display">
 			<h1 class="loaderheader">Hey earlybird, cartoons just started, join in!</h1>	  	
 		</div>
-		<div id="afternoon" class="no-display">
+		<div id="morning" class="no-display">
 			<h1 class="loaderheader">Good afternoon, we’re happy to see you here!</h1>
 		</div>
 
@@ -43,6 +43,8 @@
 	                <ul>
 	                	<li><a href="index.html">Home</a></li>
 	                	<li><a href="projects.html">Projects</a></li>
+	                	<li><a href="network.html">Network</a></li>
+	                	<li><a href="about.html">About</a></li>
 	                	<li><a href="index.html">Contact</a></li>	                		                	
 	                </ul>
 	              </div>
@@ -59,7 +61,7 @@
 
 		<div class="container-fluid bg-blue">
 			<div class="row intro" id="dust">
-				<h1 class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">The only <i><strong>Kids</strong></i> you need.</h1>
+				<h1 class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">The <i><strong>Kids</strong></i> are the future.</h1>
 			</div>
 		</div>
 		<div class="container-fluid">	
@@ -71,9 +73,13 @@
 			</div>
 		</div>
 		<div class="container-fluid">	
-			<div class="row case1">
-				<h2 class="col-xs-12">The future of Nutrion: PARO</h2>
-			</div>
+			<a href="paro.html">
+
+				<div class="row case1">
+					<h2 class="col-xs-12">The future of nutrion: PARO</h2>
+				</div>
+
+			</a>
 		</div>
 		<div class="container-fluid">	
 			<a href="swiss-international-airlines.html">
@@ -83,7 +89,7 @@
 
 
 				</div>
-			</a>
+
 		</div>
 
 		<footer>
@@ -99,7 +105,7 @@
 			</div>
 		</footer>
 
-		<div id="flashlight" class="no-display">
+		<div id="flashlight" class="no-display"></div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -110,42 +116,44 @@
 
 				if (today >= 0 && today < 5) {
 			      	document.getElementById("night").className = "night";
-			      	$("#night").delay(1500).fadeOut(3000);				
+			      	$("#night").delay(4500).fadeOut(1000);				
 				}
 
 				if (today >= 0 && today < 5) {
 			    	document.getElementById("flashlight").className = "flashlight";
-			    	$("#flashlight").fadeIn(3000);
+			    	$("#flashlight").fadeIn(7500);
 				}
 
 				if (today >= 5 && today < 7) {
-			      	document.getElementById("backgroundchange").className = "earlybird";
-					$("#earlybird").delay(1500).fadeOut(3000);				
+			      	document.getElementById("earlybird").className = "earlybird";
+					$("#earlybird").delay(4500).fadeOut(1000);				
 				}
 
 				if (today >= 7 && today < 11) {
-			    	document.getElementById("backgroundchange").className = "morning";
-			    	$("#morning").delay(1500).fadeOut(3000);								
+			    	document.getElementById("morning").className = "morning";
+			    	$("#morning").delay(4500).fadeOut(1000);								
 				} 
 
 				if (today >= 11 && today < 14) {
-			    	document.getElementById("backgroundchange").className = "food";
-			    	$("#food").delay(1500).fadeOut(3000);				
+			    	document.getElementById("food").className = "food";
+			    	$("#food").delay(4500).fadeOut(1000);				
 				}
 
 				if (today >= 14 && today < 17) {
 			    	document.getElementById("afternoon").className = "afternoon";
-			    	$("#afternoon").delay(1500).fadeOut(3000);
+			    	$("#afternoon").delay(4500).fadeOut(1000);
 				}
 
 				if (today >= 17 && today < 21) {
 			    	document.getElementById("evening").className = "evening";
-			    	$("#evening").delay(4500).fadeOut(3000);
+			    	$("#evening").delay(4500).fadeOut(1000);
 				}
 
 				if (today >= 21 && today < 24) {
 			    	document.getElementById("flashlight").className = "flashlight";
 			    	$("#flashlight").fadeIn(7500);
+			    	$("#flashlight").delay(8000).fadeOut(3000);
+
 				}
 
 				if (today >= 21 && today < 24) {

@@ -31,6 +31,22 @@ h2 {
 	line-height: 66px;	
 }
 
+.btn {
+  border-radius: 0px;
+  background-color: #2B2B2B;
+  color: white;
+  padding: 15px 18px 12px 18px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: 100;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #2B2B2B;
+}
+
 .container-fluid {
 	display: block;
 }
@@ -166,7 +182,8 @@ footer div {
 /* Video */
 
 .videomargin {
-	margin-top: 170px;
+	margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .videoWrapper {
@@ -174,8 +191,21 @@ footer div {
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
-    border: 45px solid #1D1D1D;
-    border-radius: 30px;
+    border: 0px solid;
+    border-radius: 0px;
+}
+
+@media (min-width: 992px) {
+  .videomargin {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .videoWrapper {
+
+    border: 25px solid #1D1D1D;
+    border-radius: 15px;
+  }
 }
 
 .videoWrapper iframe {
@@ -192,6 +222,10 @@ footer div {
 	background-color: #1E1EFA;
 }
 
+.bg-matblue {
+  background-color: #1D4E77;
+}
+
 .bg-red {
 	background-color: #E60005;	
 }
@@ -200,8 +234,40 @@ footer div {
 	background-color: #F2F2F2;
 }
 
+.bg-green {
+  background-color: #4D9778;
+}
+
 .bg-darkgrey {
 	background-color: #2B2B2B;
+}
+
+.bg-salmon {
+  background-color: #E8A684;
+}
+
+.bg-dirt {
+  background-color: #BE815A;
+}
+
+.bg-trycatch-blue {
+  background-color: #262162;
+}
+
+.bg-trycatch-pink {
+  background-color: #E0778F;
+}
+
+.bg-hte-green {
+  background-color: #56FEC2;
+}
+
+.bg-hte-red {
+  background-color: #DB333C;
+}
+
+.bg-cobweb-pink {
+  background-color: #ea148c;
 }
 
 .textwhite {
@@ -213,15 +279,30 @@ footer div {
 }
 
 .extraheight {
-	height: 900px;
+	height: auto;
 }
 
 .fullheight {
-	height: 600px;
+  height: auto;
 }
 
 .halfheight {
-	height: 300px;
+	height: auto;
+}
+
+@media (min-width: 992px) {
+  
+  .fullheight {
+  height: 600px;
+}
+
+  .halfheight {
+    height: 300px;
+  }
+
+  .extraheight {
+    height: 900px;
+  }
 }
 
 .qheight {
@@ -240,8 +321,8 @@ footer div {
 
 .flashlight {
   z-index: 1001;
-  width: 100%;
-  height: 100%;
+  width: 3000px;
+  height: 3000px;
   padding: 200px;
   position: fixed;
   top: 0;
@@ -267,32 +348,17 @@ footer div {
     z-index: 99;
 }
 
-                .loaderheader {
-                    color: white;
-                    line-height: 95vh;
-                    font-size: 58px;
-                    text-align: center;
-                    font-weight: 300;
-                }
+.loaderheader {
+    color: white;
+    line-height: 95vh;
+    font-size: 58px;
+    text-align: center;
+    font-weight: 300;
+}
 
-                .earlybird {background-color: lightblue; }
-                .morning {background-color: orange; }
-                .food {background-color: darkgreen; }
-                .afternoon {background-color: darkred;}
-                .evening {background-color: #f3b998; }
-                .night {background-color: black; }
-
-                .flashlight {
-                      z-index: 1001;
-                      width: 100%;
-                      height: 100%;
-                      padding: 200px;
-                      position: fixed;
-                      top: 0;
-                      left: 0;
-                      background-repeat: no-repeat;
-                      background: radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
-                      background: -webkit-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
-                      background: -moz-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
-                      background: -ms-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.96)) center center;
-                    }
+.earlybird {background-color: #3590E7; }
+.morning {background-color: #D89D43; }
+.food {background-color: #4DC073; }
+.afternoon {background-color: #953743;}
+.evening {background-color: #434A5D; }
+.night {background-color: #2B2B2B; }

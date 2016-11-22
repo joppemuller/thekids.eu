@@ -12,9 +12,204 @@
 	font-weight: 100;
 }
 
+.portfolio h2 {
+	text-align: center;
+    line-height: 48px;
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 250px;
+}
+
+@media (min-width: 768px) {
+
+.portfolio h2 {
+	line-height: 600px;
+	font-size: 48px;
+	padding-top: 0px;
+}
+
+}
+
+@media (min-width: 992px) {
+
+.portfolio h2 {
+	line-height: 600px;
+	font-size: 64px;
+	padding-top: 0px;
+}
+
+}
+
+.portfolio .experience {
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 90px;
+    padding-right: 15px
+}
+
+.portfolio .experience p {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+@media (min-width: 768px) {
+
+.portfolio .experience {
+	padding-left: 16.66667%;
+	padding-right: 16.66667%;	
+}
+}
+
+@media (min-width: 992px) {
+
+.portfolio .experience {
+	padding-top: 400px;
+	padding-left: 50px;
+	padding-right: 50px;	
+}
+
+.portfolio .experience p {
+    font-size: 32px;
+}
+
+}
+
+.portfolio .briefdiv {
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 90px;
+}
+
+
+@media (min-width: 768px) {
+
+.portfolio .briefdiv {
+	padding-left: 16.66667%;
+	padding-right: 16.66667%;	
+}
+}
+
+@media (min-width: 992px) {
+
+.portfolio .briefdiv {
+    padding-top: 65px;
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+}
+
+.portfolio .video {
+	padding: 0;
+}
+
+@media (min-width: 992px) {
+	.porfolio .video {
+		padding-bottom: 90px;
+	}
+}
+
+.portfolio .results {
+	padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 90px;
+    padding-right: 15px;
+}
+
+
+@media (min-width: 768px) {
+
+.portfolio .results {
+	padding-left: 16.66667%;
+	padding-right: 16.66667%;	
+}
+}
+
+@media (min-width: 992px) {
+
+.portfolio .results {
+	padding-top: 420px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+
+}
+
+.portfolio .results p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.portfolio .feedback p {
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.portfolio .feedback p span {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.portfolio .feedback {
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 90px;
+}
+
+
+@media (min-width: 768px) {
+
+.portfolio .feedback {
+	padding-left: 16.66667%;
+	padding-right: 16.66667%;	
+}
+}
+
+@media (min-width: 992px) {
+	.portfolio .feedback {
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+.portfolio .poster {
+    text-align: center;
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio .poster img {
+    border: 6px solid white;
+    width: 100%;
+    box-shadow: 2px 2px 40px rgba(0,0,0,0.3);
+}
+@media (min-width: 992px ) {
+	.portfolio .poster img {
+    border: 10px solid white;
+}
+}
+
+.portfolio footer h2 {
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 34px;
+    text-align: left;
+    line-height: 48px;
+    color: #2b2b2b;
+    margin: 0;
+}
+
+
 /* Swiss Airlines Case */
 
-.swissairlines .swiss {
+.swissairlines .swiss1 {
 	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -22,66 +217,402 @@
 	height: 600px;	
 }
 
-.swissairlines .swiss h2 {
-	text-align: center;
-	line-height: 600px;
-	color: white;		
-	font-size: 64px;
-	font-weight: 300;
-	margin: 0;
-}
-
 .swissairlines .swiss2 {
 	background-image: url('../img/Swiss-International-Airlines-Wengen-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .swiss2 {
+    height: 600px;
+}
+}
+
+.swissairlines .caselogo {
+    width: 320px;
+    padding: 90px 30px;
+    max-width: 400px;
+}
+
+@media (min-width: 992px) {
+
+.swissairlines .caselogo {
+    width: 400px;
+    padding-top: 105px;
+}
+
+.swissairlines #results {
+	padding-top: 470px;
+}
+
+}
+
+
+
+/* Nomadsfestival Case */
+
+.portfolio .nomads1 {
+	background-image: url('../img/Nomads-Festival-2016-Kids-Project-Design-Concept.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 600px;	
 }
 
-.swissairlines .briefdiv {
-	padding-top: 75px;
-    padding-left: 50px;
-    padding-right: 50px;
+.portfolio .nomads2 {
+	background-image: url('../img/Nomads-Festival-2016-Kids-Project2-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
 }
 
-.swissairlines .experience {
-	padding-top: 400px;
-	padding-left: 50px;
+@media (min-width: 992px) {
+.portfolio .nomads2 {
+    height: 600px;
+}
 }
 
-.swissairlines .experience p {
-	font-size: 36px;
-	font-weight: 100;
+.nomadsfestival16 .caselogo {
+    width: 100%;
+    padding: 90px 30px;
+    max-width: 500px;
 }
 
-.swissairlines .caselogo {
-    width: 320px;
-    padding-top: 105px;
+@media (min-width: 992px) {
+
+.nomadsfestival16 .caselogo {
+    width: 400px;
+    padding-top: 60px;
 }
 
-.swissairlines .results {
+}
+
+/* Paro Case */
+
+.portfolio .paro1 {
+	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.portfolio .paro2 {
+	background-image: url('../img/Paro-Nutrion-Kids-Project-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .paro2 {
+    height: 600px;
+}
+}
+
+.portfolio .paro3 {
+	background-image: url('../img/Paro-Nutrion-Kids-Project2-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .paro3 {
+    height: 600px;
+}
+}
+
+.paro .caselogo {
+    width: 100%;
+    padding: 90px 60px;
+    max-width: 500px;
+}
+
+@media (min-width: 992px) {
+
+.paro .caselogo {
+	width: 350px;
+    padding-top: 95px;
+}
+
+}
+
+.paro #results {
+    padding-top: 100px;
+}
+@media (min-width: 992px) {
+
+.paro #results {
 	padding-top: 470px;
-	padding-left: 50px;
 }
 
-.swissairlines .results p {
-	font-size: 36px;
-	font-weight: 100;
 }
 
-.swissairlines .feedback {
-    padding-top: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
+.paro #briefdiv {
+	padding-top: 100px;
 }
 
-.swissairlines .feedback p {
-	font-size: 36px;
-	font-weight: 100;
+@media (min-width: 992px) {
+
+.paro #briefdiv {
+	padding-top: 100px;
 }
 
-.swissairlines .feedback p span {
-	font-size: 24px;
-	font-weight: 500;
 }
+
+/* Try Catch Case */
+
+
+.portfolio .trycatch1 {
+	background-image: url('../img/Try-Catch-Design-Project2-Kids-Berlin.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.portfolio .trycatch2 {
+	background-image: url('../img/Try-Catch-Design-Project1-Kids-Berlin.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .trycatch2 {
+    height: 600px;
+}
+}
+
+.portfolio .trycatch3 {
+	background-image: url('../img/Paro-Nutrion-Kids-Project2-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .trycatch3 {
+    height: 600px;
+}
+}
+
+.trycatch .caselogo {
+    width: 100%;
+    padding: 90px 60px;
+    max-width: 500px;
+}
+
+.trycatch .experience h4 {
+	color: #656565;
+}
+
+@media (min-width: 992px) {
+
+.trycatch .caselogo {
+    width: 450px;
+    padding-top: 130px;
+}
+
+}
+
+.trycatch #results {
+    padding-top: 100px;
+}
+@media (min-width: 992px) {
+
+.trycatch #results {
+	padding-top: 470px;
+}
+
+}
+
+.trycatch #briefdiv {
+	padding-top: 100px;
+}
+
+@media (min-width: 992px) {
+
+.trycatch #briefdiv {
+	padding-top: 100px;
+}
+
+}
+
+/* Hole Through Earth Case */
+
+
+.portfolio .hte1 {
+	background-image: url('../img/Hole-Through-Earth--Kids-Project2-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.portfolio .hte2 {
+	background-image: url('../img/Hole-Through-Earth--Kids-Project3-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .hte2 {
+    height: 600px;
+}
+}
+
+.portfolio .hte3 {
+	background-image: url('../img/Paro-Nutrion-Kids-Project2-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .hte3 {
+    height: 600px;
+}
+}
+
+.holethroughearth .caselogo {
+    width: 100%;
+    padding: 90px 60px;
+    max-width: 500px;
+}
+
+@media (min-width: 992px) {
+
+.holethroughearth .caselogo {
+    width: 350px;
+    padding-top: 35px;
+}
+
+}
+
+.holethroughearth #results {
+    padding-top: 100px;
+}
+@media (min-width: 992px) {
+
+.holethroughearth #results {
+	padding-top: 370px;
+}
+
+}
+
+.holethroughearth #briefdiv {
+	padding-top: 100px;
+}
+
+@media (min-width: 992px) {
+
+.holethroughearth #briefdiv {
+	padding-top: 100px;
+}
+
+}
+
+.holethroughearth .poster {
+	padding: 25px;
+}
+
+@media (min-width: 992px) {
+	.holethroughearth .poster {
+	padding: 75px;
+}
+}
+
+/* Cobweb Case */
+
+
+.portfolio .cobweb1 {
+	background-image: url('../img/Cobweb-Brand-Identity1-Webdesign-Kids-Berlin.jpg	');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.portfolio .cobweb2 {
+	background-image: url('../img/Hole-Through-Earth--Kids-Project3-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .cobweb2 {
+    height: 600px;
+}
+}
+
+.portfolio .cobweb3 {
+	background-image: url('../img/Paro-Nutrion-Kids-Project2-Design-Concept.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;	
+}
+
+@media (min-width: 992px) {
+.portfolio .cobweb3 {
+    height: 600px;
+}
+}
+
+.cobweb .caselogo {
+    width: 100%;
+    padding: 90px 60px;
+    max-width: 500px;
+}
+
+@media (min-width: 992px) {
+
+.cobweb .caselogo {
+    width: 450px;
+    padding-top: 120px;
+}
+
+}
+
+.cobweb #results {
+    padding-top: 100px;
+}
+@media (min-width: 992px) {
+
+.cobweb #results {
+	padding-top: 370px;
+}
+
+}
+
+.cobweb #briefdiv {
+	padding-top: 100px;
+}
+
+@media (min-width: 992px) {
+
+.cobweb #briefdiv {
+	padding-top: 100px;
+}
+
+}
+
+.cobweb .poster {
+	padding: 75px;
+}
+
