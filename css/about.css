@@ -1,0 +1,184 @@
+.intro {
+	height: 550px;
+}
+
+.intro h1 {
+	font-size: 48px;
+	padding-top: 200px;
+	color: white;
+	font-weight: 200;
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+#dust {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+canvas.particles-js-canvas-el {
+    position: absolute;
+    left: 0;
+}
+
+@media (min-width: 500px) {
+
+.intro h1 {
+	font-size: 54px;
+	padding-top: 180px;	
+}
+
+}
+
+@media (min-width: 768px) {
+
+.intro {
+	height: 600px;
+}
+
+.intro h1 {
+	font-size: 90px;
+	padding-top: 190px;	
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.intro {
+	height: 500px;
+}
+
+.intro h1 {
+	font-size: 120px;
+	padding-top: 100px;
+	padding-bottom: 100px;	
+}
+
+}
+
+.exp {
+	height: auto;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.exp h2 {
+    font-size: 28px;
+    line-height: 44px;	
+}
+
+.exp p {
+	font-size: 20px;
+	line-height: 34px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 500px) {
+
+.exp {    
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.exp h2 {
+    font-size: 36px;
+    line-height: 50px;	
+}
+
+}
+
+@media (min-width: 768px) {
+
+.exp h2 {
+    font-size: 40px;
+    line-height: 54px;	
+}
+
+}
+
+@media (min-width: 992px) {
+
+.exp {
+	height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.exp h2 {
+    font-size: 44px;
+    line-height: 60px;	
+}
+
+.exp p {
+	font-size: 24px;
+	line-height: 36px;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.exp {
+	height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+.exp h2 {
+    font-size: 48px;
+    line-height: 66px;	
+}
+
+}
+
+.about1 {
+	background-image: url('../img/Kids_Design_Agency_Berlin-Concept-Team1a.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.about2 {
+	background-image: url('../img/Berlin-Kids-Design-Website-Image-About.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+
+.clients {
+	padding-top: 85px;
+	padding-bottom: 150px;
+}
+
+.clients p {
+	font-size: 22px;
+	padding-top: 45px;
+	padding-bottom: 45px; 
+	text-align: center;
+}
+
+.clients img {
+	width: 100%;
+}
+.prop {
+	margin-top: 100px;
+}
+
+.prop p {
+	font-size: 36px;
+}
+
+@media (min-width: 768px) {
+	.prop p {
+		font-size: 48px;
+	}
+}

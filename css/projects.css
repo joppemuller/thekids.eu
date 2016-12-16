@@ -4,12 +4,15 @@
 
 .title h1 {
 	font-size: 48px;
-	line-height: 300px;
-	color: white;
-	font-weight: 200;
-	padding-left: 50px;
-	padding-right: 25px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 92px;
+}
+
+.title p {
 	text-align: center;
+    font-weight: 100;
 }
 
 .nomads, .swiss, .cobweb, .paro, .trycatch, .holethroughearth {

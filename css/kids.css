@@ -1,5 +1,8 @@
 body, html {
 	font-family: 'Acumin Pro', sans-serif;
+  //-webkit-text-stroke-width: .05px;
+  //-webkit-text-stroke-color: white;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -22,6 +25,11 @@ a:hover {
 
 p {
 	font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    padding-bottom: 25px;
 }
 
 h2 {
@@ -47,6 +55,10 @@ h2 {
   color: #2B2B2B;
 }
 
+.action {
+  margin-top: 20px; 
+}
+
 .container-fluid {
 	display: block;
 }
@@ -58,7 +70,7 @@ h2 {
     position: absolute;
     right: 35px;
     top: 30px;
-    font-weight: 100;
+    font-weight: 400;
     color: white;
     border-bottom: 2px solid white;
     height: 32px;
@@ -92,7 +104,19 @@ h2 {
     margin-top: 30px;
 }
 
-.overlay-content div, ul {
+.menux ul {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+
+  .menux ul {
+    margin-top: 100px;
+  }
+
+}
+
+.overlay-content div, .overlay-content ul {
     margin-top: 50px;
     list-style: none;
     padding: 0;
@@ -110,6 +134,10 @@ h2 {
 
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
+}
+
+.overlay ul {
+  padding: 0;
 }
 
 .overlay .closebtn {
@@ -137,6 +165,18 @@ h2 {
     color: white !important;
 }
 
+.contactnav h2 {
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+#menulink {
+    color: blue;
+    border-bottom: 2px solid blue;
+    display: inline;
+    font-size: 24px;
+}
+
 /* Logo */
 
 .logo {
@@ -157,26 +197,81 @@ h2 {
 
 /* Footer */
 
-footer div {
-	height: 300px;
+footer .business, footer .business div {
+	min-height: 300px;
+}
+
+footer .business {
+  margin-bottom: 100vh;
+  border-top: 1px solid #f2f2f2;
+}
+
+@media (min-width: 768px) {
+  footer .business {
+    border-top: 0px;
+  }
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+.linkedin-logo {
+  height: 55px;
+  padding-left: 0px !important;
 }
 
 .fleft {
 	padding-top: 32px;
 	padding-left: 65px;
+  padding-bottom: 60px;
 }
 
 .fright {
 	line-height: 300px;
-    text-align: center;
+  text-align: center;
+  height: 300px;
+}
+
+.fright img:first-child {
 }
 
 .fright img {
 	padding-left: 50px; 
 }
 
-.fright img:first-child {
-	padding-left: 0px;
+.noisebg {
+  position: fixed;
+  background-image: url('../img/Kids_Design_Agency_Berlin-Concept-Team1a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F2F2F2;
+  height: 100vh;
+  width: 100%;  
+  z-index: -10;
+  bottom: 0;
+}
+
+.noisebg h2 {
+ font-size: 28px;
+  margin-top: 50%;
+  line-height: 36px;
+}
+
+@media (min-width: 768px) {
+
+.noisebg h2 {
+    font-weight: 200;
+    margin-top: 275px;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.fleft {
+  padding-bottom: 0px: 
+}
+
 }
 
 /* Video */
@@ -218,6 +313,10 @@ footer div {
 
 /* Helper CSS */
 
+.bg-white {
+  background-color: white;
+}
+
 .bg-blue {
 	background-color: #1E1EFA;
 }
@@ -240,6 +339,10 @@ footer div {
 
 .bg-darkgrey {
 	background-color: #2B2B2B;
+}
+
+.bg-lightgrey {
+  background-color: #F2F2F2;
 }
 
 .bg-salmon {
@@ -268,6 +371,10 @@ footer div {
 
 .bg-cobweb-pink {
   background-color: #ea148c;
+}
+
+.semibold {
+  font-weight: 600;
 }
 
 .textwhite {
@@ -350,10 +457,11 @@ footer div {
 
 .loaderheader {
     color: white;
-    line-height: 95vh;
-    font-size: 58px;
+    line-height: 40px;
+    font-size: 32px;
     text-align: center;
     font-weight: 300;
+    padding-top: 150px;
 }
 
 .earlybird {background-color: #3590E7; }
@@ -362,3 +470,19 @@ footer div {
 .afternoon {background-color: #953743;}
 .evening {background-color: #434A5D; }
 .night {background-color: #2B2B2B; }
+
+@media (min-width: 992px) {
+ .afternoon, .earlybird, .morning, .food, .evening, .night {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.loaderheader {
+    line-height: 95vh;
+    font-size: 58px;
+    padding-top: 0px;
+} 
+}

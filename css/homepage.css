@@ -2,16 +2,20 @@
 /* Homepage */
 
 .intro {
-	height: 100vh;
+	height: 500px;
 }
 
 .intro h1 {
-	font-size: 48px;
-	padding-top: 200px;
+	font-size: 56px;
+	padding-top: 160px;
 	color: white;
 	font-weight: 200;
 	padding-left: 50px;
 	padding-right: 25px;
+}
+
+.bg-film {
+
 }
 
 #dust {
@@ -41,7 +45,7 @@ canvas.particles-js-canvas-el {
 }
 
 .intro h1 {
-	font-size: 90px;
+	font-size: 80px;
 	padding-top: 190px;	
 }
 
@@ -54,8 +58,25 @@ canvas.particles-js-canvas-el {
 }
 
 .intro h1 {
-	font-size: 120px;
-	padding-top: 180px;	
+	font-size: 115px;
+	padding-top: 190px;
+	padding-left: 0px;
+	padding-right: 0px;	
+}
+
+}
+
+@media (min-width: 1500px) {
+
+.intro {
+	height: 900px;
+}
+
+.intro h1 {
+	font-size: 160px;
+	padding-top: 250px;
+	padding-left: 0px;
+	padding-right: 0px;	
 }
 
 }
@@ -63,13 +84,12 @@ canvas.particles-js-canvas-el {
 .exp {
 	height: auto;
 	padding-top: 100px;
-	padding-bottom: 150px;
+	padding-bottom: 130px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 .exp h2 {
-    padding-top: 0px;
     font-size: 28px;
     line-height: 44px;	
 }
@@ -100,13 +120,12 @@ canvas.particles-js-canvas-el {
 @media (min-width: 992px) {
 
 .exp {
-	height: 600px;
+	height: auto;
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
 .exp h2 {
-    padding-top: 40px;
     font-size: 44px;
     line-height: 60px;	
 }
@@ -116,13 +135,14 @@ canvas.particles-js-canvas-el {
 @media (min-width: 1200px) {
 
 .exp {
-	height: 600px;
+	height: auto;
 	padding-left: 0px;
 	padding-right: 0px;
+	padding-top: 150px;
+	padding-bottom: 170px;
 }
 
 .exp h2 {
-    padding-top: 40px;
     font-size: 48px;
     line-height: 66px;	
 }
@@ -130,7 +150,7 @@ canvas.particles-js-canvas-el {
 }
 
 .case1 {
-	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
+	background-image: url('../img/Nomads-Festival-2016-Kids-Project-Design-Concept.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -141,7 +161,7 @@ canvas.particles-js-canvas-el {
 	text-align: center;
 	line-height: 300px;
 	color: white;		
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: 300;
 	margin: 0;
 }
@@ -155,38 +175,28 @@ canvas.particles-js-canvas-el {
 }
 
 .case2 h2 {
-	text-align: center;
-	line-height: 300px;
-	color: white;		
-	font-size: 26px;
-	font-weight: 300;
-	margin: 0;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
 }
 
 @media (min-width: 768px) {
 
 .case1 {
-	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	height: 450px;
 }
 
 .case1 h2 {
-	text-align: center;
 	line-height: 450px;
-	color: white;		
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: 300;
-	margin: 0;
+	padding-top: 0px;
 }
 
 .case2 {
-	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	height: 450px;
 }
 
@@ -194,7 +204,7 @@ canvas.particles-js-canvas-el {
 	text-align: center;
 	line-height: 450px;
 	color: white;		
-	font-size: 49px;
+	font-size: 40px;
 	font-weight: 300;
 	margin: 0;
 }
@@ -204,10 +214,6 @@ canvas.particles-js-canvas-el {
 @media (min-width: 992px) {
 
 .case1 {
-	background-image: url('../img/Paro-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	height: 600px;
 }
 
@@ -215,16 +221,12 @@ canvas.particles-js-canvas-el {
 	text-align: center;
 	line-height: 600px;
 	color: white;		
-	font-size: 64px;
+	font-size: 54px;
 	font-weight: 300;
 	margin: 0;
 }
 
 .case2 {
-	background-image: url('../img/Swiss-International-Airlines-Kids-Homepage-Design-Concept.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	height: 600px;
 }
 
@@ -232,9 +234,206 @@ canvas.particles-js-canvas-el {
 	text-align: center;
 	line-height: 600px;
 	color: white;		
-	font-size: 64px;
+	font-size: 54px;
 	font-weight: 300;
 	margin: 0;
 }
 
+}
+
+.clients {
+	padding-top: 110px;
+	padding-bottom: 210px;
+}
+
+.clients p {
+	font-size: 48px;
+	padding-top: 45px;
+	padding-bottom: 45px; 
+	text-align: center;
+	font-weight: 200;
+	color: white;
+}
+
+.clients img {
+	width: 100%;
+}
+
+.whatwedo {
+	margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+	.whatwedo {
+		margin-top: 0px;
+	}
+}
+
+#headerwhat {
+    padding-top: 125px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.whatwedo h1 {
+	padding-top: 75px;
+	font-weight: 200;
+	color: white;	
+
+}
+
+.whatwedo h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-top: 55px;
+}
+
+.whatwedo a {
+	border-bottom: none;
+}
+
+.whatwedo a:hover {
+	border-bottom: none;	
+}
+
+.whatwedo button {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
+@media (min-width: 768px) {
+
+#headerwhat {
+	font-size: 48px;
+}
+
+.whatwedo h4 {
+	padding-left: 35px;
+}
+
+
+}
+
+@media (min-width: 992px) {
+.whatwedo button {
+	margin-bottom: 90px;	
+}
+
+.whatwedo h4 {
+	padding-left: 50px;
+}
+
+}
+
+@media (min-width: 1200px) {
+	.whatwedo h4 {
+	padding-top: 85px;
+}
+}
+
+.whatwedo div {
+	color: #2b2b2b;
+}
+
+.whatwedo .evolve:hover, .whatwedo .explore:hover, .whatwedo .learn:hover {
+	background-color: blue;
+	color: white;
+}
+
+.evolve, .explore, .learn {
+	background-color: blue;
+	margin-top: 0px;
+}
+
+.learn:hover {
+
+	background-image: url('../img/Kids-Learn.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: blue;
+	background-size: cover;
+}
+
+.explore:hover {
+	background-image: url('../img/Kids-Birth-Weeks.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: blue;
+	background-size: cover;
+}
+
+.evolve:hover {
+	background-image: url('../img/Kids-Brand-Building.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: blue;
+	background-size: cover;
+}
+
+.exploretext p, .evolvetext p, .learntext p {
+	font-weight: 200;
+	font-size: 28px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 60px;
+
+}
+
+@media (min-width: 768px) {
+.exploretext p, .evolvetext p, .learntext p {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.learntext h4 {
+    padding-top: 85px;
+}
+
+}
+
+@media (min-width: 992px) {
+.exploretext p, .evolvetext p, .learntext p {
+    font-size: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+}
+
+.learntext p {
+}
+
+@media (min-width: 768px) {
+	.evolve {
+		margin-top: 0px;
+	}
+
+	.explore {
+		margin-top: 0px;
+	}
+
+	.learn{
+		margin-top: 0px;
+	}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes evolveit {
+    from {background-color: #f2f2f2;}
+    to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes evolveit {
+    from {background-color: #f2f2f2;}
+    to {background-color: blue;}
 }
